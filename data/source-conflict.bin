@@ -2,7 +2,8 @@
   "kind": "standard_notice",
   "id": "standard_notice-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "corrected-copy"
+  "standard_no": "GB-R-01",
+  "announced_on": "2026-11-16",
+  "status": "official",
+  "variant": "conflicting-copy"
 }

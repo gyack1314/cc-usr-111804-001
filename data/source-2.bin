@@ -1,8 +1,8 @@
 {
   "kind": "standard_text",
-  "id": "standard_text-B",
+  "id": "standard_text-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "pending"
+  "standard_no": "GB-R-01",
+  "document_revision": "2026-11",
+  "pages": 32
 }

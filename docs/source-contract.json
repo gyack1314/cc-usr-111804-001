@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "standard_notice",
+    "standard_text"
+  ],
+  "relation_field": "standard_no",
+  "required_fields": {
+    "standard_notice": [
+      "standard_no",
+      "announced_on",
+      "status"
+    ],
+    "standard_text": [
+      "standard_no",
+      "document_revision",
+      "pages"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}
