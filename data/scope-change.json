@@ -1,0 +1,18 @@
+{
+  "allowed_origins": [
+    "https://local-source-001.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-001.example.test/records/standard_notice-A",
+      "kind": "standard_notice",
+      "required": true
+    },
+    {
+      "url": "https://local-source-001.example.test/records/standard_erratum-A",
+      "kind": "standard_erratum",
+      "required": true
+    }
+  ],
+  "steps": []
+}
