@@ -6,17 +6,20 @@
     {
       "url": "https://local-source-001.example.test/records/standard_notice-A",
       "kind": "standard_notice",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     },
     {
       "url": "https://local-source-001.example.test/records/standard_text-B",
       "kind": "standard_text",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     },
     {
       "url": "https://local-source-001.example.test/records/standard_erratum-A",
       "kind": "standard_erratum",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     }
   ],
   "steps": []
