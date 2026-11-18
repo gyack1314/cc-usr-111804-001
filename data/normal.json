@@ -29,5 +29,17 @@
         "sha256": "6df4500b016cb0288fe307d835163a0083277c044e2ef5e18e1b7a273ff45420"
       }
     }
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-001.example.test/records/standard_notice-A",
+      "kind": "standard_notice",
+      "required": true
+    },
+    {
+      "url": "https://local-source-001.example.test/records/standard_text-B",
+      "kind": "standard_text",
+      "required": true
+    }
   ]
 }
