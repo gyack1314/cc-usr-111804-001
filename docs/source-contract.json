@@ -1,7 +1,8 @@
 {
   "roles": [
     "standard_notice",
-    "standard_text"
+    "standard_text",
+    "standard_erratum"
   ],
   "relation_field": "standard_no",
   "required_fields": {
@@ -14,6 +15,12 @@
       "standard_no",
       "document_revision",
       "pages"
+    ],
+    "standard_erratum": [
+      "standard_no",
+      "document_revision",
+      "issued_on",
+      "status"
     ]
   },
   "source_identity": [

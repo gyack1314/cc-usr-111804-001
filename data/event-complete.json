@@ -1,0 +1,37 @@
+{
+  "allowed_origins": [
+    "https://local-source-001.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-001.example.test/records/standard_notice-A",
+      "kind": "standard_notice",
+      "required": true
+    },
+    {
+      "url": "https://local-source-001.example.test/records/standard_text-B",
+      "kind": "standard_text",
+      "required": true
+    },
+    {
+      "url": "https://local-source-001.example.test/records/standard_erratum-A",
+      "kind": "standard_erratum",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-001.example.test/records/standard_erratum-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-event.bin",
+        "status": 200,
+        "bytes": 200,
+        "sha256": "b0d8e051cbe8dd908ce090da13a629d12c5511717bd23a34e175e02d233d4d26"
+      }
+    }
+  ]
+}

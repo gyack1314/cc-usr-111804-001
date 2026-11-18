@@ -1,0 +1,9 @@
+{
+  "kind": "standard_erratum",
+  "id": "standard_erratum-A",
+  "revision": "v1",
+  "standard_no": "GB-R-01",
+  "document_revision": "2026-11-r2",
+  "issued_on": "2026-11-17",
+  "status": "official"
+}
